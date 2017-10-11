@@ -1,0 +1,27 @@
+#search-block-form {
+	@include grid-row;
+
+	.js-form-type-search {
+		@include grid-column(12, 0);
+
+		@include breakpoint(large) {
+			@include grid-column(8, 0);
+		}
+
+		input {
+			height: 40px;
+		}
+	}
+
+	.form-wrapper {
+		@include grid-column(12, 0);
+
+		@include breakpoint(large) {
+			@include grid-column(4, 0);
+		}
+	}
+
+	.button {
+		@include button-expand();
+	}
+}
