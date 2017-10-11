@@ -1,0 +1,12 @@
+name: DR Foundations
+type: theme
+base theme: stable
+description: 'Base Drupal 8 theme using the Foundation framework'
+package: Core
+version: 0.0.0
+core: 8.x
+libraries:
+  - dr_foundations/global-styling
+libraries-override:
+  core/modernizr: false
+  core/jquery: false

@@ -1,0 +1,9 @@
+global-styling:
+  version: VERSION
+  css:
+    base:
+      assets/css/global-styles.min.css: {}
+  js:
+    assets/js/vendors/bundle.modernizr.js: { weight: -110 }
+    assets/js/vendors/jquery.min.js: { weight: -100 }
+    assets/js/bundle.global-scripts.js: { weight: -90 }

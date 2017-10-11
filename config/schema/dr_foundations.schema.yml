@@ -1,0 +1,5 @@
+# Schema for the configuration files of the DR Foundations theme.
+
+dr_foundations.settings:
+  type: theme_settings
+  label: 'DR Foundations settings'

@@ -1,0 +1,20 @@
+.drupal-task-menu {
+	background-color: $gray244;
+	margin: 0 0 20px;
+
+	li {
+		display: inline-block;
+		list-style-type: none;
+	}
+
+	a {
+		display: block;
+		padding: 10px 15px;
+
+		&:hover,
+		&:focus {
+			background-color: darken($gray244, 20%);
+			color: $white;
+		}
+	}
+}
